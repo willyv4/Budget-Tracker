@@ -1,0 +1,12 @@
+.ExpenseContain {
+    background-color: rgb(231, 231, 231);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding: 5px;
+    padding-left: 25px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 30px 30px 0px 0px rgb(77, 87, 94);
+}

@@ -1,0 +1,38 @@
+
+.expense-time {
+    width: 140px;
+    margin: 2px;
+    float: left;
+    text-align: center;
+    margin-right: 10%;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(255, 255, 255);
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(62, 64, 66);
+}
+
+
+.divs1
+.divs2
+.divs3 {
+    flex-direction: row;
+}
+
+.divs1 {
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+
+.divs2 {
+    font-size: large;
+    color: white;
+}
+
+.divs3 {
+    color: rgb(161, 175, 183);
+    font-size: xx-large;
+}
