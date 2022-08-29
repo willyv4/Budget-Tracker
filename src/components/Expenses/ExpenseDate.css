@@ -15,7 +15,6 @@
     border-left: 10px solid rgb(147, 203, 192);
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    margin-left: -20px;
 }
 
 
@@ -39,4 +38,10 @@
 .divs3 {
     color: rgba(255, 148, 112, 0.874);
     font-size: xx-large;
+}
+
+@media (max-width: 500px) {
+    .expense-time {
+        margin: 0px;
+    }
 }

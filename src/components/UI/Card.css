@@ -34,3 +34,13 @@
     overflow-y: scroll;
 
 }
+
+@media (max-width: 500px) {
+    .ExpenseContain {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+    }
+}

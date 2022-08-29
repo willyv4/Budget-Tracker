@@ -6,13 +6,24 @@
     margin-right: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    min-width: 638px;
+    min-width: 400px;
     border-radius: 12px;
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: center;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
   }
+
+  @media (max-width: 500px) {
+    .new-expense {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+
+        flex-direction: column;
+        position: relative;
+    }
+}
   
   .new-expense button {
     font: inherit;
