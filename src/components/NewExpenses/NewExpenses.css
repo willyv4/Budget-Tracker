@@ -17,10 +17,7 @@
   @media (max-width: 500px) {
     .new-expense {
         width: 400px;
-        display: flex;
         justify-content: center;
-
-        flex-direction: column;
         position: relative;
     }
 }
