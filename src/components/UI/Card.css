@@ -1,9 +1,7 @@
 .expense-Contain {
-    background-color: rgb(196, 200, 202);
-    width: 75%;
+    background-color: rgb(137, 136, 136);
     height: 75%;
-    border-radius: 10px;
-    width: 40rem;
+    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -14,10 +12,15 @@
     margin: 1%;
     width: 95%;
     justify-content: center;
+    border-bottom: 10px solid rgb(147, 203, 192);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow-y: scroll;
+    max-height: 800px;
 } 
 
 .ExpenseContain {
-    background-color: rgb(231, 231, 231);
+    background-color: rgba(0, 0, 0, 0.673);
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
@@ -27,4 +30,7 @@
     justify-content: center;
     border-radius: 10px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    max-height: 800px;
+    overflow-y: scroll;
+
 }
